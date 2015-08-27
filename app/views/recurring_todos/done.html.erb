@@ -10,7 +10,7 @@
   <div class="container" id="completed_recurring_todos_container">
     <div class="paginate_header"><%= will_paginate @completed_recurring_todos, paginate_options %></div>
     <h2>
-      <span id="completed-projects-count" class="badge"><%= "#{@total} (#{@range_low}-#{@range_high})" %></span>
+      <span id="completed-projects-count" class="number_badge"><%= "#{@total} (#{@range_low}-#{@range_high})" %></span>
       <%= t('todos.completed_recurring') %>
     </h2>
     <div id="completed_recurring_todos_container">
